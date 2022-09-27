@@ -25,6 +25,20 @@ Very Soon We will Update it With New Features.
 </p>
 </details>
 
+## Deploy 
+
+
+You can deploy this bot anywhere.
+
+
+|                                                                                                                 | Name              | Deploy        |
+| --------------------------------------------------------------------------------------------------------------- | ----------------- | ------------- | 
+| ![Replit](assets/img/replit.jpg) | Replit (Recommended) | [see guide](/guides/replit.md) |
+| [![Heroku](assets/img/heroku.png)](https://heroku.com)                                                          | Heroku            | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kevinnadar22/URL-Shortener-V2)                          |
+| ![VPS](assets/img/vps.png) | VPS | [see guide](/guides/vps.md) |
+
+
+
 ## Support
 [![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/RequestingHuB)
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/FilmyFather_BotList)
