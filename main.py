@@ -50,7 +50,7 @@ async def help_handler(_, event: Message):
 async def inline_handlers(_, event: Message):
     if event.text == '/start':
         return
-    answers = f'**📂 Results For ➠ {event.text} \n\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n➠ Please Type Correct Spelling.✍️\n➠ Add Year For Better Result.🗓️\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n\n**'
+    answers = f'**📂 Results For ➠ {event.text} \n\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n➠ Please Type Correct Spelling.✍️\n➠ Add Year Or Try Typing In CAPITAL LETTERS.🗓️\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n\n**'
     async for message in User.search_messages(chat_id=Config.CHANNEL_ID, limit=50, query=event.text):
         if message.text:
             thumb = True
@@ -65,8 +65,9 @@ async def inline_handlers(_, event: Message):
             answers
         )
         print(f"[{Config.BOT_SESSION_NAME}] - Answered Successfully - {event.from_user.first_name}")
-        await asyncio.sleep(30)
+        await asyncio.sleep(3600)
         await msg.delete()
+        await event.delete()
     except:
         print(f"[{Config.BOT_SESSION_NAME}] - Failed to Answer - {event.from_user.first_name}")
 
@@ -100,7 +101,7 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("About", callback_data="About_msg"),
-						InlineKeyboardButton("Our Channel", url="https://t.me/sigma_male_007")
+						InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour")
 					], 
                                         [
 						InlineKeyboardButton("Owner", url="https://t.me/sigma_male_007"),
