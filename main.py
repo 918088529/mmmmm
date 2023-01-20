@@ -28,8 +28,8 @@ async def start_handler(_, event: Message):
 
     await event.reply_text(Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour"),
-             InlineKeyboardButton("Our Group", url="https://t.me/blackest_harbour")],
+            [InlineKeyboardButton("Our Channel", url="https://t.me/all_language_movies11"),
+             InlineKeyboardButton("Our Group", url="https://t.me/all_language_movies11")],
             [InlineKeyboardButton("Help", callback_data="Help_msg"),
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
@@ -40,8 +40,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour"),
-             InlineKeyboardButton("Our Group", url="https://t.me/blackest_harbour"), 
+            [InlineKeyboardButton("Our Channel", url="https://t.me/all_language_movies11"),
+             InlineKeyboardButton("Our Group", url="https://t.me/all_language_movies11"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
@@ -81,12 +81,12 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour"),
-						InlineKeyboardButton("Our Group", url="https://t.me/blackest_harbour"),
+						InlineKeyboardButton("Our Channel", url="https://t.me/all_language_movies11"),
+						InlineKeyboardButton("Our Group", url="https://t.me/all_language_movies11"),
                                                 InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Developer", url="https://t.me/Z_Harbour_bot"),
+						InlineKeyboardButton("Developer", url="https://t.me/all_language_movies11"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -101,10 +101,10 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("About", callback_data="About_msg"),
-						InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour")
+						InlineKeyboardButton("Our Channel", url="https://t.me/all_language_movies11")
 					], 
                                         [
-						InlineKeyboardButton("Owner", url="https://t.me/z_harbour"),
+						InlineKeyboardButton("Owner", url="https://t.me/all_language_movies11"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -122,8 +122,8 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/z_harbour"),
-						InlineKeyboardButton("Channel", url="https://t.me/blackest_harbour")
+						InlineKeyboardButton("Support", url="https://t.me/all_language_movies11"),
+						InlineKeyboardButton("Channel", url="https://t.me/all_language_movies11")
 					]
 				]
 			),
