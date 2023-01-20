@@ -1,7 +1,7 @@
 {
-    "name": "This is Inline Search Bot by @KGN_OFFICIAL",
+    "name": "This is Inline Search Bot by @all_language_movies11",
     "logo": "https://telegra.ph/file/5348ee6f73f835d7ed738.jpg", 
-    "description": "This is Inline Channel Messages Search Bot by @KGN_OFFICIAL",
+    "description": "This is Inline Channel Messages Search Bot by @all_language_movies11",
     "keywords": [
         "telegram",
         "channel",
@@ -11,41 +11,41 @@
     ],
     "repository": "https://github.com/KGN-BOTS/mdisk-Search-Bot",
     "website": "https://telegram.dog/KGN_OFFICIAL",
-    "success_url": "http://t.me/Samantha_Ruth_RoBot",
+    "success_url": "https://t.me/all_language_movies11",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org"
+            "description": "23098568"
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org"
+            "description": "cb7098aa919c29da3e5f9af0f9086dd7"
         },
         "USER_SESSION_STRING": {
-            "description": "Get this from @KGN_STRING_BOT"
+            "description": "1BVtsOL4Bu8UNyJ-TIOIvyDAJi4lzcDBjMmvc_xYC2MgZSYR1kNl2eFtrp4hgvAW4u0-RuDe4QbNMZDAX48EwZN__qqeTUBPeFAvN8XLcFvqBOJhzvNjezgsQm85BiKpW8dlOtruTLwLG_Hsctx21ZdjuCapMYyRJMx7dgms7VA2Da9Bm30M6gAliuZas1V2s09JybCci6Ml3qsv3wS4Up38zv8mEEuk1t_AbSy51KH4hBQKSZwi9JqbGsHeHa5crNKy8Ua7Aw1cluNAw3fICTQySkKctdd5fC9YzDOo84xuml1t0uRtm58GsBn1-yIJxuOMf6N9rnn9gcwiivHIVjXXqrrnMtYs="
         },
         "BOT_SESSION_NAME": {
-            "description": "Any Session Name for Bot."
+            "description": "Movie Search bot "
         },
         "BOT_TOKEN": {
-            "description": "Get this from @BotFather"
+            "description": "5850952542:AAEF-Y3P7gIy2K1zbYyqfmnqgTQxNpt978s"
         },
         "BOT_USERNAME": {
-            "description": "Your Bot Username which you sent to @BotFather (Without [@])"
+            "description": "mdisk_movies_searchbot"
         },
         "BROADCAST_AS_COPY": {
             "description": "Nothing to Put here."
         },
         "BOT_OWNER": {
-            "description": "Bot Owner UserID"
+            "description": "5183104181"
         },
         "DATABASE_URL": {
-            "description": "MongoDB Database URI for Saving UserID for Broadcast."
+            "description": "mongodb+srv://shok123:shok123@cluster0.yxyorfu.mongodb.net/?retryWrites=true&w=majority"
         },
         "UPDATES_CHANNEL": {
-            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -1001669443507",
-            "required": false
+            "description": "-1001738397533",
+            "required": true
         },
         "CHANNEL_ID": {
-            "description": "Channel ID for Searching Messages."
+            "description": "-1001575849076"
         }
     },
     "buildpacks": [
